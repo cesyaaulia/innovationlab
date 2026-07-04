@@ -8,66 +8,77 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 
 <p align="center">
-  <strong>Repositori dokumentasi instruksional, proyek implementasi, dan persiapan kompetisi teknologi nasional (OLIVIA & GEMASTIK).</strong>
+  <strong>A repository for instructional documentation, implementation projects, and preparation resources for national technology competitions (OLIVIA & GEMASTIK).</strong>
 </p>
 
-[Tentang Program](#-tentang-program) • [Proyek Unggulan](#-proyek-unggulan-webgis-sdgs-tracker) • [Teknologi](#-spesifikasi-teknologi) • [Struktur Repositori](#-struktur-repositori) • [Instalasi](#-panduan-instalasi)
+[About the Program](#-about-the-program) • [Featured Project](#-featured-project-webgis-sdgs-tracker) • [Tech Stack](#-technology-specifications) • [Repository Structure](#-repository-structure) • [UI Documentation](#-user-interface-documentation)
 
 </div>
 
 ---
 
-## 📖 Tentang Program
+## 📖 About the Program
 
-**Innovation Lab 2025** adalah program pelatihan intensif yang diselenggarakan oleh **Himpunan Mahasiswa D4 Manajemen Informatika, Universitas Negeri Surabaya (UNESA)**. Program ini dirancang khusus untuk memperkuat fundamental mahasiswanya dalam rekayasa perangkat lunak dan desain interaksi, sekaligus sebagai inkubator persiapan menuju ajang kompetisi bergengsi tingkat nasional seperti **OLIVIA** dan **GEMASTIK**.
+**Innovation Lab 2025** is an intensive training program organized by the **Management Informatics Student Association (HMP), Universitas Negeri Surabaya (UNESA)**. This program is specifically designed to strengthen students' fundamentals in software engineering and interaction design, while serving as a preparation incubator for prestigious national-level competitions such as **OLIVIA** and **GEMASTIK**.
 
-### 🎯 Tujuan Instruksional
-- 💻 **Web Engineering:** Membangun aplikasi berbasis web yang responsif, dinamis, dan terintegrasi data geospatial.
-- ⚡ **Algoritma & Struktur Data:** Memperkokoh pemecahan masalah (problem-solving) menggunakan bahasa C++.
-- 🎨 **UI/UX Design Thinking:** Menerapkan pendekatan *user-centered design* mulai dari *wireframing* hingga *high-fidelity prototyping* di Figma.
-
----
-
-## 🌎 Proyek Unggulan: WebGIS SDGs Tracker
-
-Sebagai bentuk implementasi nyata dari materi Web Development, repositori ini memuat prototipe **WebGIS SDGs Tracker**. Aplikasi ini berfungsi untuk memetakan, memvisualisasikan, serta melacak capaian *Sustainable Development Goals* (SDGs) di tingkat daerah secara interaktif.
-
-### ✨ Fitur Utama Sistem
-1. **Autentikasi Gerbang Masuk (`login.html`)**
-   - Antarmuka minimalis berbasis Bootstrap dengan validasi input client-side untuk membatasi hak akses halaman kontrol panel.
-2. **Dashboard Pemetaan Interaktif (`dashboard.html`)**
-   - **Integrasi WebGIS:** Menyematkan peta spasial dinamis menggunakan teknologi *embedded maps*.
-   - **Filter Multikategori:** Memungkinkan pengguna menyaring sebaran data berdasarkan pilar SDGs seperti *Pendidikan*, *Kesehatan*, dan *Lingkungan*.
-   - **Panel Informasi Geografis:** Menampilkan *pop-up card* informatif mengenai detail lokasi, klasifikasi sektor, dan persentase progress capaian SDGs (Contoh studi kasus: Kampus Universitas Negeri Surabaya dengan Progress 90%).
+### 🎯 Learning Objectives
+- 💻 **Web Engineering:** Building responsive, dynamic web applications integrated with geospatial data.
+- ⚡ **Algorithms & Data Structures:** Enhancing structured problem-solving skills using C++.
+- 🎨 **UI/UX Design Thinking:** Applying a user-centered design approach ranging from wireframing to high-fidelity prototyping in Figma.
 
 ---
 
-## 🛠️ Spesifikasi Teknologi
+## 🌎 Featured Project: WebGIS SDGs Tracker
 
-Komposisi teknologi yang dipelajari dan diimplementasikan sepanjang program mencakup:
+As a practical implementation of the Web Development curriculum, this repository contains the prototype for the **WebGIS SDGs Tracker**. This application serves to map, visualize, and interactively track the achievements of *Sustainable Development Goals* (SDGs) at regional levels.
 
-| Ranah Perkembangan | Teknologi / Framework / Tools |
+### ✨ Core Features
+1. **Gate Authentication (`login.html`)**
+   - A minimalist Bootstrap-based interface equipped with client-side input validation to restrict access to the control panel dashboard.
+2. **Interactive Mapping Dashboard (`dashboard.html`)**
+   - **WebGIS Integration:** Embedding dynamic spatial maps using embedded map technology.
+   - **Multi-category Filtering:** Allowing users to filter data distribution based on specific SDG pillars such as *Education*, *Health*, and *Environment*.
+   - **Geographic Information Panel:** Displaying informative pop-up cards containing location details, sector classification, and progress percentages (e.g., Universitas Negeri Surabaya Campus showing 90% progress).
+
+---
+
+## 🛠️ Technology Specifications
+
+The technology matrix studied and implemented throughout the program includes:
+
+| Domain | Technologies / Frameworks / Tools |
 | :--- | :--- |
-| **Bahasa Pemrograman** | PHP, JavaScript, C++, HTML5, CSS3 |
-| **Framework & Web Styling** | TailwindCSS, Bootstrap 5.3, Laravel, React.js |
-| **Manajemen Data** | MySQL, Firebase |
-| **Desain Antarmuka** | Figma (Wireframing, Prototyping, User Flow) |
-| **Lingkungan Kerja** | VS Code, Git, GitHub, Laragon, XAMPP |
+| **Programming Languages** | PHP, JavaScript, C++, HTML5, CSS3 |
+| **Frameworks & Web Styling** | TailwindCSS, Bootstrap 5.3, Laravel, React.js [cite: uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/dashboard.html, uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/landing.html, uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/README.md] |
+| **Data Management** | MySQL, Firebase |
+| **Interface Design** | Figma (Wireframing, Prototyping, User Flow) |
+| **Development Environment**| VS Code, Git, GitHub, Laragon, XAMPP |
 
 ---
 
-## 📂 Struktur Repositori
+## 📂 Repository Structure
 
 ```text
 innovationlab/
 │
-├── 📁 Web Development      # Implementasi proyek WebGIS SDGs Tracker (HTML, CSS, JS)
-│   ├── login.html          # Gerbang autentikasi user
-│   ├── landing.html        # Halaman selamat datang dan pengenalan platform
-│   └── dashboard.html      # Panel utama visualisasi WebGIS berbasis TailwindCSS
+├── 📁 Web Development      # Project implementation of WebGIS SDGs Tracker (HTML, CSS, JS)
+│   ├── login.html          # Gateway authentication page
+│   ├── landing.html        # Platform landing and overview page
+│   └── dashboard.html      # Main WebGIS dashboard powered by TailwindCSS
 │
-├── 📁 C++ Programming      # Tugas, algoritma terstruktur, dan pemecahan masalah (OOP)
-├── 📁 UI-UX Design         # Dokumentasi studi kasus, tautan Figma, dan aset desain
-├── 📁 Assignments          # Evaluasi berkala dan logbook mingguan
-├── 📁 Practice             # Latihan kode mandiri (Hands-on coding)
-└── README.md               # Dokumentasi utama proyek
+├── 📁 C++ Programming      # Assignments, structured algorithms, and OOP exercises
+├── 📁 UI-UX Design         # Case studies, Figma design links, and UI assets
+├── 📁 Assignments          # Periodic evaluations and weekly progress logbooks
+├── 📁 Practice             # Self-paced code play and hands-on laboratory work
+└── README.md               # Core project documentation
+
+📸 User Interface Documentation
+📍 Interactive Mapping Dashboard
+Below is a visual representation of the WebGIS SDGs Tracker system mapping layout around the Ketintang Campus area:
+<img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/47508a96-bab4-431e-89e0-0b57a8387973" />
+
+
+🎓 Author
+Cesya Aulia Ramadhani
+
+Applied Science Undergraduate Student in Management Informatics — Universitas Negeri Surabaya
