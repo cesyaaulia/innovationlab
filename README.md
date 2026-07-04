@@ -22,6 +22,7 @@
 **Innovation Lab 2025** is an intensive training program organized by the **Management Informatics Student Association (HMP), Universitas Negeri Surabaya (UNESA)**. This program is specifically designed to strengthen students' fundamentals in software engineering and interaction design, while serving as a preparation incubator for prestigious national-level competitions such as **OLIVIA** and **GEMASTIK**.
 
 ### 🎯 Learning Objectives
+
 - 💻 **Web Engineering:** Building responsive, dynamic web applications integrated with geospatial data.
 - ⚡ **Algorithms & Data Structures:** Enhancing structured problem-solving skills using C++.
 - 🎨 **UI/UX Design Thinking:** Applying a user-centered design approach ranging from wireframing to high-fidelity prototyping in Figma.
@@ -33,6 +34,7 @@
 As a practical implementation of the Web Development curriculum, this repository contains the prototype for the **WebGIS SDGs Tracker**. This application serves to map, visualize, and interactively track the achievements of *Sustainable Development Goals* (SDGs) at regional levels.
 
 ### ✨ Core Features
+
 1. **Gate Authentication (`login.html`)**
    - A minimalist Bootstrap-based interface equipped with client-side input validation to restrict access to the control panel dashboard.
 2. **Interactive Mapping Dashboard (`dashboard.html`)**
@@ -71,11 +73,12 @@ innovationlab/
 ├── 📁 Assignments          # Periodic evaluations and weekly progress logbooks
 ├── 📁 Practice             # Self-paced code play and hands-on laboratory work
 └── README.md               # Core project documentation
+```
 
 📸 User Interface Documentation
 📍 Interactive Mapping Dashboard
 Below is a visual representation of the WebGIS SDGs Tracker system mapping layout around the Ketintang Campus area:
-<img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/47508a96-bab4-431e-89e0-0b57a8387973" />
+<img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/b0449108-ef87-4891-a91e-1d03202494bd" />
 
 
 🎓 Author
