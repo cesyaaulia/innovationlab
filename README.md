@@ -75,13 +75,18 @@ innovationlab/
 └── README.md               # Core project documentation
 ```
 
-📸 User Interface Documentation
+## 📸 User Interface Documentation
+
 📍 Interactive Mapping Dashboard
 Below is a visual representation of the WebGIS SDGs Tracker system mapping layout around the Ketintang Campus area:
+
 <img width="601" height="338" alt="image" src="https://github.com/user-attachments/assets/b0449108-ef87-4891-a91e-1d03202494bd" />
 
+---
 
-🎓 Author
+## 🎓 Author
 Cesya Aulia Ramadhani
 
 Applied Science Undergraduate Student in Management Informatics — Universitas Negeri Surabaya
+
+---
