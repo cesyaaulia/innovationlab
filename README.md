@@ -51,7 +51,7 @@ The technology matrix studied and implemented throughout the program includes:
 | Domain | Technologies / Frameworks / Tools |
 | :--- | :--- |
 | **Programming Languages** | PHP, JavaScript, C++, HTML5, CSS3 |
-| **Frameworks & Web Styling** | TailwindCSS, Bootstrap 5.3, Laravel, React.js [cite: uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/dashboard.html, uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/landing.html, uploaded:cesyaaulia/innovationlab/innovationlab-ac6bfd326e30e76b8a097c0dd132bbe93f253018/README.md] |
+| **Frameworks & Web Styling** | TailwindCSS, Bootstrap 5.3, Laravel, React.js |
 | **Data Management** | MySQL, Firebase |
 | **Interface Design** | Figma (Wireframing, Prototyping, User Flow) |
 | **Development Environment**| VS Code, Git, GitHub, Laragon, XAMPP |
